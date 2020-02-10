@@ -1,0 +1,87 @@
+/* ESTABLISH GRID */
+html, body {
+    height: 100%;
+    margin: 0 auto;
+}
+.full-height {
+    height: 100%;
+}
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.half-width {
+    width: 48%;
+    float: left;
+}
+.third-width {
+    width: 33%;
+    float: left;
+}
+
+/* ADD STYLE*/
+body {
+    font-family: 'Merriweather', serif;
+    color: #3B0E59;
+}
+a {
+    color: #3B0E59;
+}
+h1 {
+    font-size: 24px;
+    line-height: 30px;
+}
+h2 {
+    font-size: 20px;
+    line-height: 25px;
+}
+h3 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/*STYLING THE BODY*/
+#main {
+    height: 1000px;
+    background: #F8FBFC;
+}
+#counter {
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #3B0E59;
+    padding: 20px;
+}
+#counter h2 {
+    margin: 0;
+    padding: 16px;
+}
+.donation {
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    border-top: 2px solid#3B0E59;
+}
+#donate {
+    margin: 30px auto;
+}
+#button {
+    width: 150px;
+}
+#slideshow {
+    padding: 20px;
+    text-align: center;
+    background-color: #3B0E59;
+}
+/*FOOTER STYLES*/
+footer {
+    text-align: center;
+    background: #F2ACC6;
+    height: 325px;
+    padding: 40px;
+}
+footer nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 5px;
+}
